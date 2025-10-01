@@ -1,0 +1,227 @@
+#body{
+	margin-bottom:0px;
+	margin-top:0px;
+	margin-left:0px;
+	margin-right:0px;
+	width:100%;
+	height:auto;
+	background-image:url(../img/i1.jpg);
+	background-repeat: no-repeat; 
+	background-size: cover;
+} 
+
+       
+
+
+/*nav bar ulist list design*/
+ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color:white;
+	position:fixed;
+	z-index:7;
+	top:0;
+	width:100%;
+}
+li{
+	float:left;
+	font-weight:bold;
+}
+li.navspace{
+	float:right;
+}
+li a:hover{
+	background-color:#111;
+	color:white;
+}
+li a:active{
+	background-color:#4CAF50;
+}
+li a{
+	display:block;
+	color:black;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;
+}
+/*navbar design end*/
+/* Divisions main design*/
+.admin-logout{
+	width:10%;
+	height:100px;
+	position:fixed;
+	top:50px;
+	display:none;
+	background-color:black;
+	border-radius:5px;
+	text-align:center;
+	right:0.5%;
+	z-index:1;
+}
+.admin-logout img{
+	width:50px;
+	height:50px;
+	text-align:center;
+}
+/*admin-logout form design*/
+.admin-logout input[type=button]{
+	background-color: white;
+	border:none;
+	color:black;
+	padding:6px 12px;
+	text-align:center;
+	text-decoration:none;
+	font-size:14px;
+	margin:4px 2px;
+	cursor:pointer;
+	font-family:Times New Roman;
+}
+.admin-logout input[type=button]:hover{
+	background-color:#FF0066;
+}
+.admin-logout{
+	color:white;
+}
+/*admin-logout form desgin end*/
+/*container division design*/
+.container{
+	height:460px;
+	width:96%;
+	position:relative;
+	top:50px;
+	border-radius:0px;
+	left:2%;
+	right:2%;
+}
+/*container division design end*/
+/*container form design*/
+input[type=text],[type=number],[type=file]{
+	width:90%;
+	padding:8px 22px;
+	margin:7px 0;
+	border:1px solid #ccc;
+	border-radius:2px;
+	cursor:pointer;
+	background-image:url(../icons/favicon.png);
+	background-position:5px 5px;
+	background-repeat:no-repeat;
+}
+
+select{
+	width:90%;
+	padding:8px 22px;
+	margin:7px 0;
+	border:1px solid #ccc;
+	border-radius:2px;
+	cursor:pointer;
+	background-image:url(../icons/favicon.png);
+	background-position:5px 5px;
+	background-repeat:no-repeat;
+}
+select:focus{
+	border:1px solid #FF0030;
+}
+input[type=time]{
+	width:90%;
+	padding:8px 22px;
+	margin:7px 0;
+	border:1px solid #ccc;
+	border-radius:2px;
+	cursor:pointer;
+	background-image:url(../icons/favicon.png);
+	background-position:5px 5px;
+	background-repeat:no-repeat;
+}
+input[type=time]:focus{
+	border:1px solid #FF0030;
+}
+input[type=number]{
+	width:90%;
+	padding:8px 22px;
+	margin:7px 0;
+	border:1px solid #ccc;
+	border-radius:2px;
+	cursor:pointer;
+	background-image:url(../icons/favicon.png);
+	background-position:5px 5px;
+	background-repeat:no-repeat;
+}
+input[type=number]:focus{
+	border:1px solid #FF0030;
+}
+input[type=password]{
+	background-color:white;
+	border:none;
+	color:#FF0033;
+	padding:12px 40px;
+	text-align:center;
+	text-decoration:none;
+	font-size:16px;
+	margin:4px 2px;
+	cursor:pointer;
+	font-family:Times New Roman;
+}
+input[type=password]:focus{
+	border:1px solid #FF0030;
+}
+input[type=button]{
+	background-color: #FF0033;
+	border:none;
+	color:white;
+	padding:8px 40px;
+	text-align:center;
+	text-decoration:none;
+	font-size:14px;
+	margin:2px 2px;
+	cursor:pointer;
+	font-family:Times New Roman;
+}
+input[type=button]:hover{
+	background-color:#FF0066;
+}
+input[type=submit],[type=reset]{
+	background-color: #FF0033;
+	border:none;
+	color:white;
+	padding:8px 40px;
+	text-align:center;
+	text-decoration:none;
+	font-size:14px;
+	margin:2px 2px;
+	cursor:pointer;
+	font-family:Times New Roman;
+}
+input[type=submit],[type=reset]:hover{
+	background-color:#FF0066;
+}
+label{
+	font-family:Times New Roman;
+	font-size:16px;
+	font-weight:bold;
+}
+.package{
+	color:black;
+	text-align:center;
+	width:30%;
+	height:100%;
+	position:relative;
+	top:0%;
+	bottom:0%;
+	left:35%;
+	right:35%;
+}
+.admin_password{
+	color:white;
+	text-align:center;
+	width:30%;
+	height:50%;
+	position:relative;
+	top:25%;
+	bottom:25%;
+	left:35%;
+	right:35%;
+	display:none;
+}
+/*container form design end*/
